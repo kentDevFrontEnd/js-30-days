@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="key" data-key='65'>
+      <kbd>A</kbd>
+      <span class="sound">Clap</span>
+    </div>
+    <div class="key" data-key='83'>
+      <kbd>S</kbd>
+      <span class="sound">Tres</span>
+    </div>
+    <div class="key" data-key='68'>
+      <kbd>D</kbd>
+      <span class="sound">Kick</span>
+    </div>
+    <div class="key" data-key='70'>
+      <kbd>F</kbd>
+      <span class="sound">Open</span>
+    </div>
+    <div class="key" data-key='71'>
+      <kbd>G</kbd>
+      <span class="sound">Wave</span>
+    </div>
+    <div class="key" data-key='72'>
+      <kbd>H</kbd>
+      <span class="sound">Ride</span>
+    </div>
+    <div class="key" data-key='74'>
+      <kbd>J</kbd>
+      <span class="sound">Snare</span>
+    </div>
+    <div class="key" data-key='75'>
+      <kbd>K</kbd>
+      <span class="sound">Toom</span>
+    </div>
+    <div class="key" data-key='76'>
+      <kbd>L</kbd>
+      <span class="sound">Tink</span>
+    </div>
+  </div>
+  <audio  data-key="65">
+    <source type="audio/mpeg" src="sounds/Clap.wav">
+  </audio>
+  <audio  data-key="83">
+    <source type="audio/mpeg" src="sounds/hihat.mp3">
+  </audio>
+  <audio  data-key="68">
+    <source type="audio/mpeg" src="sounds/kick.mp3"> 
+  </audio>
+  <audio  data-key="70">
+    <source type="audio/mpeg" src="sounds/open.wav">
+  </audio>
+  <audio  data-key="71">
+    <source type="audio/mpeg" src="sounds/no.wav">
+  </audio>
+  <audio data-key="72">
+    <source type="audio/mpeg" src="sounds/ride.mp3" >
+  </audio>
+  <audio  data-key="74">
+    <source type="audio/mpeg" src="sounds/snare.wav">
+  </audio>
+  <audio  data-key="75">
+    <source type="audio/mpeg" src="sounds/tom.wav">
+  </audio>
+  <audio  data-key="76">
+    <source type="audio/mpeg" src="sounds/tinh.wav">
+  </audio>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

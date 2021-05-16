@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/black-gold-marble-texture_125540-835.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 0 15px;
+
+  width: 80px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid gray;
+
+  cursor: pointer;
+  transition: all 0.07s;
+  user-select: none;
+}
+
+kbd {
+  color: white;
+  font-size: 22px;
+}
+
+.sound {
+  color: yellow;
+  font-size: 28px;
+}
+
+.active {
+  transform: scale(1.1);
+  border: 1px solid yellow;
+}
+
+/* .key:hover {
+  transform: scale(1.1);
+  border: 1px solid yellow;
+} */
