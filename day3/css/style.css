@@ -1,0 +1,84 @@
+:root {
+  --color: #c9eedb;
+  --spacing: 10px;
+  --blur: 1px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e8e8e8;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.container {
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.container h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.container form {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.container form .form-group {
+  margin: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container form label {
+  font-size: 20px;
+}
+
+.container form .form-control {
+  margin-top: 10px;
+}
+
+.container .show {
+  width: 100%;
+  margin-top: 15px;
+  padding: var(--spacing);
+  background-color: var(--color);
+}
+
+.container .show .img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  filter: blur(var(--blur));
+  -o-object-fit: cover;
+  object-fit: cover;
+}

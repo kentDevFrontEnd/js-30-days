@@ -19,3 +19,12 @@
 1. note:
 
 - create analog clock using Date method: getSeconds, getMinutes, getHours
+
+# day 3 play with css variables with js
+
+1. note
+
+- method setProperty(property, value+unit)
+  - property: duoc dinh nghia trong root thong qua biet --
+  - value: get from input
+  - init: get from data-unit
