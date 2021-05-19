@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e8e8e8;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.panel {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  transition: all 0.35s;
+}
+
+.panel p {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: aliceblue;
+
+  position: relative;
+}
+
+.panel p:first-child {
+  top: -500px;
+  transition: all 0.35s;
+}
+
+.panel p:last-child {
+  bottom: -500px;
+  transition: all 0.35s;
+}
+
+.panel p:nth-child(2) {
+  color: orangered;
+  font-size: 40px;
+}
+
+.panel-1 {
+  background-image: url("../images/black-gold-marble-texture_125540-835.jpg");
+}
+
+.panel-2 {
+  background-image: url("../images/flat-geometric-background_23-2148957201.jpg");
+}
+
+.panel-3 {
+  background-image: url("../images/room-with-concrete-floor-smoke-background_9083-2991.jpg");
+}
+
+.panel-4 {
+  background-image: url("../images/unpleased-young-caucasian-male-barber-wearing-glasses-wavy-hair-band-uniform-standing-profile-view-stretching-out-hand-camera-gesturing-no-isolated-white-background-with-copy-sp.jpg");
+}
+
+.panel-5 {
+  background-image: url("../images/versus-vs-sign-with-blue-red-empty-podiums-pedestals_107791-6378.jpg");
+}
+
+.panel.active {
+  flex: 4;
+}
+
+.panel.active p:first-child {
+  top: 0;
+}
+
+.panel.active p:last-child {
+  bottom: 0;
+}

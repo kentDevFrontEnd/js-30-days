@@ -28,3 +28,7 @@
   - property: duoc dinh nghia trong root thong qua biet --
   - value: get from input
   - init: get from data-unit
+
+# day 4: array method
+
+# day 5: flex panel image gallery
