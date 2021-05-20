@@ -32,3 +32,5 @@
 # day 4: array method
 
 # day 5: flex panel image gallery
+
+# day 6: fetch data
