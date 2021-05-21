@@ -34,3 +34,19 @@
 # day 5: flex panel image gallery
 
 # day 6: fetch data
+
+# day 7: array method
+
+- array.prototype.some()
+- array.prototype.every()
+- array.prototype.filter()
+- array.prototype.find()
+
+# day 8: html canvas
+
+1. learn html canvas
+
+- getContext('2d')
+- ctx.strokeStyle =
+- ctx.lineJoin | lineCap | lineWidth
+- ctx. beginPath | moveTo | lineTo | stroke
